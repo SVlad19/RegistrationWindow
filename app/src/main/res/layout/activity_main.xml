@@ -61,9 +61,10 @@
     <LinearLayout
         android:id="@+id/LL_Main"
         android:layout_width="0dp"
-        android:layout_height="115dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/layout_style"
         android:orientation="horizontal"
-        android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,8 +73,9 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="95dp"
-            android:layout_height="114dp"
+            android:layout_width="92dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="6dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/main_photo" />
 
@@ -81,7 +83,7 @@
             android:id="@+id/CounterPosts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="40dp"
             android:layout_weight="1"
             android:text="@string/CounterPosts"
             android:textAlignment="center"
@@ -92,7 +94,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="40dp"
             android:layout_weight="1"
             android:text="@string/CounterFriends"
             android:textAlignment="center"
@@ -103,12 +105,82 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="40dp"
             android:layout_weight="1"
             android:text="@string/CounterBestFriends"
             android:textAlignment="center"
             android:textSize="16sp"
             android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Interests"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/Main"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LL_Main"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_margin="20sp"
+        android:layout_marginTop="72dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LL_Main"
+        app:layout_constraintVertical_bias="0.067"
+        android:background="@drawable/layout_style">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="106dp"
+            android:layout_height="95dp"
+            android:layout_weight="1"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/graph" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="106dp"
+            android:layout_height="95dp"
+            android:layout_weight="1"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/mountains" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="106dp"
+            android:layout_height="95dp"
+            android:layout_weight="1"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/office" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

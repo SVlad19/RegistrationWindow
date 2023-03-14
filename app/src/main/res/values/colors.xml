@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="BackgroundColor">#C9F4EFEF</color>
     <color name="Menu">#C9CABCBC</color>
+    <color name="Main">#D8F1EEEE</color>
 
 
 </resources>
