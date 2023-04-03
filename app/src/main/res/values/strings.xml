@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Lab2(1)ForOOP</string>
-    <string name="UserName">v_l_a_d__13</string>
+    <string name="UserName">Username</string>
     <string name="CounterPosts">3\nPosts</string>
     <string name="CounterFriends">150\nFriends</string>
     <string name="CounterBestFriends">3\nBestFriends</string>
